@@ -19,6 +19,3 @@ router.put("/:id", protect, adminOnly, updateQuiz);
 router.delete("/:id", protect, adminOnly, deleteQuiz);
 
 module.exports = router;
-console.log(typeof protect);
-console.log(typeof adminOnly);
-router.get("/", getAllQuizzes);
